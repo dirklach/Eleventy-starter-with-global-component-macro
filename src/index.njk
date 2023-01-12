@@ -1,11 +1,23 @@
 ---
-title: "Hello World"
+title: "Eleventy starter"
 ---
 
 {%- extends "layouts/base.njk" -%}
 
 {%- block content -%}
 
+<p>This starter project was made by Dirk Lach.</p>
+<p>To start just type <em>npm i</em> and <em>npm start</em></p>
+<p>Besides a basic Eleventy configuration, you will also find a Sass watcher and a <a href="https://www.trysmudford.com/blog/encapsulated-11ty-components/">global component macro</a> (thanks to Trys Mudford)</p>
+<br/>
+<p>This is global component:</p>
 {{ component('button') }}
+<br/>
+<br/>
+
+<p>Now you can delete the content of this page, delete the button component and create your project.</p>
+<p>Have fun.</p>
+<p>Dirk Lach — Web Designer & Frontend Developer</p>
+<a href="https://dirklach.com/">dirklach.com</a>
 
 {%- endblock -%}
